@@ -33,3 +33,6 @@ obj-$(CONFIG_CHARGER_SPRD4SAMSUNG27X3) += sprd27x3_charger4samsung.o
 obj-$(CONFIG_CHARGER_SM5414)  	+= sm5414_charger.o sec_charger.o sec_dt_init.o
 obj-$(CONFIG_THUNDERCHARGE_CONTROL) += thundercharge_control.o
 obj-$(CONFIG_VBAT_CHECK)	+= vbat_check.o
+
+# Charge hack
+obj-$(CONFIG_SUPER_CHARGER_CONTROL) += super_charger_control.o
